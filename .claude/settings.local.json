@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__figma-dev-mode__get_design_context",
+      "Bash(curl -s http://localhost:3845/assets/019bc59f2bdccc46c62db0d2ed3abff12ed0253f.svg)",
+      "Bash(curl -s http://localhost:3845/assets/09da7cd423c554980fdc595066bbe621ca1c28a5.svg)",
+      "mcp__figma-dev-mode__get_screenshot",
+      "Bash(curl -s -o hero-hashtag.png \"http://localhost:3845/assets/6bc4eb6729a857e2aa70f2b6af2838e81bac8bc9.png\")",
+      "Bash(curl -s -o hero-rays.png \"http://localhost:3845/assets/6c36e46bfc7b184c5c9970006508c9f5edcdc724.png\")",
+      "Bash(curl -s -o hero-arrow-1.svg \"http://localhost:3845/assets/97aa4189116fe2f8b2054886675076159d4ef96e.svg\")",
+      "Bash(curl -s -o hero-arrow-2.svg \"http://localhost:3845/assets/08cdeb7d45f6676c2497ad164ce6a96b97142a22.svg\")",
+      "Bash(curl -s -o hero-blob.png \"http://localhost:3845/assets/1a89551f39f52d053b8ccab9572bd3287aabb825.png\")",
+      "Bash(curl -s -o about-ellipse.svg \"http://localhost:3845/assets/5e4fdb32c5e57561ba083b9cfde08094b19b8787.svg\")",
+      "Bash(python3 -c \"from PIL import Image; im=Image.open\\('/tmp/sb_scallop_zoom.png'\\); im.crop\\(\\(0, 3640, 2560, 3900\\)\\).save\\('/tmp/sb_scallop_crop.png'\\)\")",
+      "Bash(curl -s -o book-icon.png \"http://localhost:3845/assets/bd32a142be9fce6eb21ff97c451feb3bf8fa2410.png\")"
+    ]
+  }
+}
